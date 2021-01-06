@@ -13,7 +13,7 @@
             <div class="form-group">
               <label class="col-sm-2 control-label">NIM</label>
               <div class="col-sm-2">
-                <input type="text" class="form-control" name="nis" maxlength="5" autocomplete="off" required>
+                <input type="text" class="form-control" name="nis" maxlength="9" autocomplete="off" required>
               </div>
             </div>
 
@@ -80,7 +80,7 @@
             <div class="form-group">
               <label class="col-sm-2 control-label">No. Telepon</label>
               <div class="col-sm-2">
-                <input type="text" class="form-control" name="no_telepon" autocomplete="off" maxlength="12" onKeyPress="return goodchars(event,'0123456789',this)" required>
+                <input type="text" class="form-control" name="no_telepon" autocomplete="off" maxlength="15" onKeyPress="return goodchars(event,'0123456789',this)" required>
               </div>
             </div>
             
